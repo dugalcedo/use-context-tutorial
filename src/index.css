@@ -1,0 +1,71 @@
+* {
+    font-family: sans-serif;
+}
+
+#root {
+    text-align: center;
+}
+
+.App {
+    display: inline-block;
+    width: 500px;
+    text-align: left;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+h2 {
+    font-style: italic;
+    opacity: .8;
+}
+
+.example {
+    background-color: #275c5c;
+    color: white;
+    padding: 2rem;
+    border-radius: 1rem .5rem 1rem .5rem;
+    margin-bottom: 2rem;
+}
+
+button {
+    background-color: aqua;
+    border-radius: 1rem .5rem 1rem .5rem;
+    padding: .5rem;
+    cursor: pointer;
+    border: none;
+    margin: .25rem;
+}
+
+input {
+    color: white;
+    background: none;
+    padding: .5rem;
+    border-radius: .5rem .25rem .5rem .25rem;
+    border: 1px solid white;
+    margin: .25rem;
+}
+
+input:focus {
+    outline: 0;
+    border: 1px dashed white;
+}
+
+.bigButton {
+    font-size: 2rem;
+}
+
+button:hover {
+    background-color: #00a3a3;
+}
+
+#advancedForm > div {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+#advancedForm > div > span {
+    width: 50%;
+}
