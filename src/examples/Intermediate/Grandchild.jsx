@@ -12,7 +12,7 @@ export default function Grandchild() {
 
     function updateStudent() {
         const newStudent = document.querySelector('#student').value
-        updateStore({...store, teacher: newStudent})
+        updateStore({...store, student: newStudent})
     }
 
     /*
